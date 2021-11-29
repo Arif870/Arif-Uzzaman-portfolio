@@ -45,7 +45,7 @@ export default function Banner() {
                 .typeString(`<span>Express js</span>`)
                 .pauseFor(1000)
                 .deleteChars(10)
-                .typeString(`<span>MongoBD</span>`)
+                .typeString(`<span>MongoDB</span>`)
                 .pauseFor(1000)
                 .deleteChars(7)
                 .typeString(`<span>Material UI</span>`)
