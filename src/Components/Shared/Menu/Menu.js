@@ -34,11 +34,6 @@ export default function Menu() {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Blog
-              </Link>
-            </li>
           </ul>
           <Button
             classNameName="ms-auto"
