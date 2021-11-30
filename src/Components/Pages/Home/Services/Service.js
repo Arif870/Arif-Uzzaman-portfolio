@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import img1 from "../../media/web-design.png";
-import img2 from "../../media/graphic-design.png";
-import img3 from "../../media/web-development.png";
+import img1 from "../..//../../media/web-design.png";
+import img2 from "../../../../media/graphic-design.png";
+import img3 from "../../../../media/web-development.png";
 import "./Service.css";
 
 const services = [

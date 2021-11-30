@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import "./Projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import img1 from "../../media/work1.png";
-import img2 from "../../media/work2.png";
-import img3 from "../../media/work3.png";
-import img4 from "../../media/work4.png";
+import img1 from "../../../../media/work1.png";
+import img2 from "../../../../media/work2.png";
+import img3 from "../../../../media/work3.png";
+import img4 from "../../../../media/work4.png";
 
 export default function Projects() {
   return (

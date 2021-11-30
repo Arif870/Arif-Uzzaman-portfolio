@@ -2,7 +2,7 @@ import { Button, Grid, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import TypewriterComponent from "typewriter-effect";
 import "./Banner.css";
-import video from "../../media/video/portfolio.mp4";
+import video from "../../../../media/video/portfolio.mp4";
 
 export default function Banner() {
   return (

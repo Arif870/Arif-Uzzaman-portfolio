@@ -1,12 +1,12 @@
 import { Button } from "@mui/material";
 import * as React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../media/logo.png";
+import logo from "../../../media/logo.png";
 import "./Menu.css";
 
 export default function Menu() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark ">
+    <nav className="navbar navbar-expand-lg navbar-dark mt-4 ">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -25,8 +25,8 @@ export default function Menu() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="#">
-                About
+              <Link className="nav-link" to="/aboutme">
+                About me
               </Link>
             </li>
             <li className="nav-item">

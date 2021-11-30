@@ -1,5 +1,5 @@
 import React from "react";
-import skillimg from "../../media/skill.png";
+import skillimg from "../../../../media/skill.png";
 import "./Skill.css";
 
 export default function Skills() {
