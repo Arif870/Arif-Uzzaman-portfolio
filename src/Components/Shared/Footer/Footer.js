@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="mt-5">
       <section class="m-100">
         <footer>
           <p class="text-light text-center mb-2">

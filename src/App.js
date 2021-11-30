@@ -6,6 +6,7 @@ import Home from "./Components/Pages/Home/Home/Home";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Aboutme from "./Components/Pages/Aboutme/Aboutme/Aboutme";
+import Projects from "./Components/Pages/Projects/Projects";
 
 const useStyles = makeStyles({
   fonts: {
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutme" element={<Aboutme />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </BrowserRouter>
