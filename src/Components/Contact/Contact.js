@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { init } from "emailjs-com";
 init("user_YHzxAW5obSbWmI2IsYvgs");
 
-export const Contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = e => {
@@ -63,3 +63,5 @@ export const Contact = () => {
     </>
   );
 };
+
+export default Contact;
