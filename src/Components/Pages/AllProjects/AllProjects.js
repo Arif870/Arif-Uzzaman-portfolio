@@ -18,6 +18,7 @@ import p13 from "../../../media/projects/p13.png";
 import p14 from "../../../media/projects/p14.png";
 import p15 from "../../../media/projects/p15.png";
 import p16 from "../../../media/projects/p16.png";
+import p17 from "../../../media/projects/portfolio-rochehub.png";
 import "./Allprojects.css";
 export default function AllProjects() {
   return (
@@ -402,6 +403,33 @@ export default function AllProjects() {
                 <div className="card-footer">
                   <a
                     href="https://arif870.github.io/food-feed/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-danger btn-sm d-block w-100 "
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Project 17  */}
+
+            <div className="col-12 col-sm-6 col-md-4 ">
+              <div className="card bg-dark shadow">
+                <img className="card-img-top" src={p17} alt="project1" />
+                <div className="card-body">
+                  <h5 className="card-title text-info">RocheHub Bangladesh</h5>
+                  <p className="card-text">
+                    RocheHub is an educational resource for healthcare
+                    professionals practicing in Bangladesh. It features useful
+                    information on Roche pharmaceutical products, associated
+                    diseases, congresses-webinars, Roche Foundation Medicine
+                    services and other necessary contacts/ links.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <a
+                    href="https://www.rochehub.com.bd/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-danger btn-sm d-block w-100 "
