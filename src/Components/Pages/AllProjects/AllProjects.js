@@ -421,10 +421,7 @@ export default function AllProjects() {
                   <h5 className="card-title text-info">RocheHub Bangladesh</h5>
                   <p className="card-text">
                     RocheHub is an educational resource for healthcare
-                    professionals practicing in Bangladesh. It features useful
-                    information on Roche pharmaceutical products, associated
-                    diseases, congresses-webinars, Roche Foundation Medicine
-                    services and other necessary contacts/ links.
+                    professionals practicing in Bangladesh.
                   </p>
                 </div>
                 <div className="card-footer">
